@@ -15,7 +15,7 @@ My customers' cars comes first.
       </p>
       </div>
       <div class="flex justify-end">
-        <img class="max-w-sm md:max-w-md lg:max-w-xl xl:max-w-2xl" src="/home-car.jpeg" alt="">
+        <img class="max-w-sm md:max-w-md lg:max-w-xl xl:max-w-2xl" src="/home-car.jpeg" alt="Photo of a car">
       </div>
 
 

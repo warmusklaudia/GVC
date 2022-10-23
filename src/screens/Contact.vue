@@ -55,7 +55,7 @@
           </div>
           </div>
         </div>
-        <img src="/Map.png" class="w-2/5 pt-6 md:pt-0" alt="">
+        <MapView class="mt-6 w-64 h-80 md:mt-0 md:w-1/3 md:h-[400px] lg:h-[450px] rounded-md" />
       </div>
     </section>
 
@@ -77,4 +77,6 @@
 import Logo from '../components/Logo.vue'
 import Nav from '../components/Nav.vue'
 import { Phone, Mail, MapPin, Building2  } from 'lucide-vue-next'
+import MapView from '../components/MapView.vue'
+
 </script>

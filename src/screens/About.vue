@@ -9,12 +9,14 @@
       <Nav />
     </header>
     <section>
-      <div class="px-3 flex flex-col items-center md:flex-row md:justify-evenly m-6 md:m-12 lg:pl-10">
-          <img
-            class="max-w-xs lg:max-w-md rounded-md shadow-lg "
-            src="/jakub.jpg"
-            alt=""
-          />
+      <div
+        class="px-3 flex flex-col items-center md:flex-row md:justify-evenly m-6 md:m-12 lg:pl-10"
+      >
+        <img
+          class="max-w-xs lg:max-w-md rounded-md shadow-lg"
+          src="/jakub.jpg"
+          alt="Photo of Jakub"
+        />
         <div class="pt-6 md:pt-0 md:pl-6">
           <h1
             class="tracking-wide md:tracking-widest font-alpha text-md md:text-lg lg:text-xl text-alpha font-bold"
@@ -31,12 +33,14 @@
           </p>
         </div>
       </div>
-      <div class="px-3 flex flex-col items-center md:flex-row-reverse md:justify-evenly m-6 md:m-12 lg:pl-10">
+      <div
+        class="px-3 flex flex-col items-center md:flex-row-reverse md:justify-evenly m-6 md:m-12 lg:pl-10"
+      >
         <img
-            class="max-w-xs lg:max-w-md rounded-md shadow-lg "
-            src="/audis4.jpg"
-            alt=""
-          />
+          class="max-w-xs lg:max-w-md rounded-md shadow-lg"
+          src="/audis4.jpg"
+          alt="Photo of Audi S4"
+        />
         <div class="pt-6 md:pt-0">
           <h1
             class="tracking-wide md:tracking-widest font-alpha text-md md:text-lg lg:text-xl text-alpha font-bold"
@@ -46,13 +50,11 @@
           <p
             class="font-beta leading-8 md:leading-8 lg:text-lg max-w-sm lg:max-w-md pt-6 lg:leading-10"
           >
-          I'm Jakub and I'm crazy about cars. I can talk about them day and
-            night. I started working on cars from an early age. I have already
-            10 years of experience as a car mechanic and welder. I have my own
-            car repair shop in Ingelmunster. I work as self-employed person.
+            That is my eye in my head. I have rebuilt everything in
+            this car, from custom interior to the heart, it is a 2.7 biturbo
+            which after my modifications generates 500 horses and 640nm.
           </p>
         </div>
-
       </div>
     </section>
 
