@@ -7,10 +7,82 @@
       <Nav/>
     </header>
     <section class="md:flex md:justify-between items-center">
-      <div class="w-full">
-        <div class="w-1/4 h-72 shadow-lg"></div>
-        <div></div>
-        <div></div>
+      <div class="w-full m-3 flex flex-col items-center md:m-10 md:flex-row md:justify-evenly">
+        <div class="w-64 sm:w-1/3 md:w-1/4 h-[400px] lg:h-[450px] 2xl:h-[500px] shadow-lg rounded-md flex flex-col">
+          <div class="rounded-md">
+            <img class="p-4 w-full object-contain" src="/mechanica.jpeg" alt="">
+          </div>
+          <h1 class="text-center font-alpha text-alpha pb-3">Car repair and diagnostic</h1>
+          <ul class="list-inside mx-6 lg:mx-10 text-sm md:text-base">
+            <li class="flex items-center font-beta pb-1">
+              <div class="w-2 h-2 bg-beta rounded-full mr-3"></div>
+              Engine repairs
+            </li>
+            <li class="flex items-center font-beta pb-1">
+              <div class="w-2 h-2 bg-beta rounded-full mr-3"></div>
+              Oil service
+            </li>
+            <li class="flex items-center font-beta pb-1">
+              <div class="w-2 h-2 bg-beta rounded-full mr-3"></div>
+              Tire change
+            </li>
+            <li class="flex items-center font-beta pb-1">
+              <div class="w-2 h-2 bg-beta rounded-full mr-3"></div>
+              Clutch
+            </li>
+            <li class="flex items-center font-beta pb-1">
+              <div class="w-2 h-2 bg-beta rounded-full mr-3"></div>
+              Brakes
+            </li>
+            <li class="flex items-center font-beta pb-6">
+              <div class="w-2 h-2 bg-beta rounded-full mr-3"></div>
+              Suspension
+            </li>
+          </ul>
+          <div class=" flex gap-2 text-beta w-full h-full justify-center items-end pb-6">
+            <Star fill="#D24A43"/>
+            <Star fill="#D24A43"/>
+            <Star fill="#D24A43"/>
+          </div>
+        </div>
+        <div class="w-64  sm:w-1/3 md:w-1/4 h-[400px] lg:h-[450px] 2xl:h-[500px] shadow-lg rounded-md flex flex-col">
+          <div class="rounded-md">
+            <img class="p-4 w-full h-36 object-contain" src="/chiptuning.jpeg" alt="">
+          </div>
+          <h1 class="text-center font-alpha text-alpha pb-3">Chiptuning</h1>
+          <ul class="list-inside mx-6 lg:mx-10 text-sm md:text-base">
+            <li class="flex items-center font-beta pb-1">
+              <div class="w-2 h-2 bg-beta rounded-full mr-3"></div>
+              Increase the power
+            </li>
+            <li class="flex items-center font-beta pb-1">
+              <div class="w-2 h-2 bg-beta rounded-full mr-3"></div>
+              Power check on dynamometer
+            </li>
+          </ul>
+          <div class=" flex gap-2 text-beta w-full h-full justify-center items-end pb-6">
+            <Star fill="#D24A43"/>
+            <Star fill="#D24A43"/>
+            <Star fill="#D24A43"/>
+          </div>
+        </div>
+        <div class="w-64  sm:w-1/3 md:w-1/4 h-[400px] lg:h-[450px] 2xl:h-[500px] shadow-lg rounded-md flex flex-col">
+          <div class="rounded-md">
+            <img class="p-4 w-full h-36 object-contain" src="/welding.jpeg" alt="">
+          </div>
+          <h1 class="text-center font-alpha text-alpha pb-3">Welding</h1>
+          <ul class="list-inside mx-6 lg:mx-10 text-sm md:text-base">
+            <li class="flex items-center font-beta pb-1">
+              <div class="w-2 h-2 bg-beta rounded-full mr-3"></div>
+              Welding of exhaust
+            </li>
+          </ul>
+          <div class="flex gap-2 text-beta w-full h-full justify-center items-end m-auto pb-6">
+            <Star fill="#D24A43"/>
+            <Star fill="#D24A43"/>
+            <Star fill="#D24A43"/>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -28,6 +100,7 @@
   <script setup lang="ts">
 import Logo from '../components/Logo.vue';
 import Nav from '../components/Nav.vue';
+import { Star } from 'lucide-vue-next';
 
   </script>
   
