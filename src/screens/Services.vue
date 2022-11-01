@@ -7,7 +7,7 @@
       <Nav/>
     </header>
     <section class="md:flex md:justify-between items-center">
-      <div class="w-full m-3 flex flex-col items-center md:m-10 md:flex-row md:justify-evenly">
+      <div class="w-full mb-6 gap-4 md:gap-0 flex flex-col items-center md:m-10 md:flex-row md:justify-evenly">
         <div class="w-64 sm:w-1/3 md:w-1/4 h-[400px] lg:h-[450px] 2xl:h-[500px] shadow-lg rounded-md flex flex-col">
           <div class="rounded-md">
             <img class="p-4 w-full h-28 lg:h-32 object-cover" src="/mechanica.jpg" alt="Photo of tools">

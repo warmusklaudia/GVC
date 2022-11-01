@@ -12,7 +12,7 @@
       <div class="flex flex-col md:flex-row justify-evenly items-center">
         <div>
           <p
-            class="font-alpha tracking-widest text-alpha text-2xl md:text-3xl lg:text-4xl underline decoration-beta pb-6 md:pb-8 lg:pb-10"
+            class="font-alpha text-center tracking-widest text-alpha text-2xl md:text-3xl lg:text-4xl underline decoration-beta pb-6 md:pb-8 lg:pb-10"
           >
             Jakub Zbierski
           </p>
@@ -55,7 +55,7 @@
           </div>
           </div>
         </div>
-        <MapView class="mt-6 w-64 h-80 md:mt-0 md:w-1/3 md:h-[400px] lg:h-[450px] rounded-md" />
+        <MapView class="my-6 w-64 h-80 md:my-0 md:w-1/3 md:h-[400px] lg:h-[450px] rounded-md" />
       </div>
     </section>
 
