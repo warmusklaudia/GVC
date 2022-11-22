@@ -21,15 +21,12 @@
           <h1
             class="tracking-wide md:tracking-widest font-alpha text-md md:text-lg lg:text-xl text-alpha font-bold"
           >
-            PETROLHEAD
+          {{$t('about.petrolhead.title')}}
           </h1>
           <p
             class="font-beta leading-8 md:leading-8 lg:text-lg max-w-sm lg:max-w-md pt-6 lg:leading-10"
           >
-            I'm Jakub and I'm crazy about cars. I can talk about them day and
-            night. I started working on cars from an early age. I have already
-            10 years of experience as a car mechanic and welder. I have my own
-            car repair shop in Ingelmunster. I work as self-employed person.
+          {{$t('about.petrolhead.text')}}
           </p>
         </div>
       </div>
@@ -45,14 +42,12 @@
           <h1
             class="tracking-wide md:tracking-widest font-alpha text-md md:text-lg lg:text-xl text-alpha font-bold"
           >
-            MY PROJECT S4
+          {{$t('about.s4.title')}}
           </h1>
           <p
             class="font-beta leading-8 md:leading-8 lg:text-lg max-w-sm lg:max-w-md pt-6 lg:leading-10"
           >
-            That is my eye in my head. I have rebuilt everything in
-            this car, from custom interior to the heart, it is a 2.7 biturbo
-            which after my modifications generates 500 horses and 640nm.
+          {{$t('about.petrolhead.text')}}
           </p>
         </div>
       </div>

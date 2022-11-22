@@ -1,0 +1,31 @@
+{
+    "en": {
+        "navigation.home": "Home",
+        "navigation.services": "Services",
+        "navigation.about": "About me",
+        "navigation.contact": "Contact",
+        "home.title": "Why Garage VanCuba?",
+        "home.description": "I offer the best service and guarantee the best I'll take care of your car like it's mine. My customers' cars comes first.",
+        "car.title": "Car repair and diagnostic",
+        "car.engine": "Engine repairs",
+        "car.oil": "Oil service",
+        "car.tire": "Tire change",
+        "car.clutch": "Clutch",
+        "car.brakes": "Brakes",
+        "car.suspension": "Suspension",
+        "chiptuning.title": "Chiptuning",
+        "chiptuning.power": "Increase the power",
+        "chiptuning.powerCheck": "Power check on dynamometer",
+        "chiptuning.modifications": "Individual modifications",
+        "chiptuning.gearboxmodifications": "Gearbox modifications",
+        "chiptuning.coding": "Coding",
+        "welding.title": "Welding",
+        "welding.exhaust": "Stainless steel exhaust",
+        "welding.intakes": "Cold air intakes",
+        "welding.intercooler": "Installation of intercoolers",
+        "about.petrolhead.title": "PETROLHEAD",
+        "about.petrolhead.text": "I'm Jakub and I'm crazy about cars. I can talk about them day and night. I started working on cars from an early age. I have already 10 years of experience as a car mechanic and welder. I have my own car repair shop in Ingelmunster. I work as self-employed person.",
+        "about.s4.title": "MY PROJECT S4",
+        "about.s4.text": "That is the apple of my eye. I have rebuilt everything in this car, from custom interior to the heart, it is a 2.7 biturbo which after my modifications generates 500 horses and 640nm."
+    }
+}

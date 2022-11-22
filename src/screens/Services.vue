@@ -12,31 +12,31 @@
           <div class="rounded-md">
             <img class="p-4 w-full h-28 lg:h-32 object-cover" src="/mechanica.jpg" alt="Photo of tools">
           </div>
-          <h1 class="text-center font-alpha text-alpha pb-3">Car repair and diagnostic</h1>
+          <h1 class="text-center font-alpha text-alpha pb-3">{{$t('car.title')}}</h1>
           <ul class="list-inside mx-6 lg:mx-10 text-sm md:text-base">
             <li class="flex items-center font-beta pb-1">
               <div class="w-2 h-2 bg-beta rounded-full mr-3"></div>
-              Engine repairs
+              {{$t('car.engine')}}
             </li>
             <li class="flex items-center font-beta pb-1">
               <div class="w-2 h-2 bg-beta rounded-full mr-3"></div>
-              Oil service
+              {{$t('car.oil')}}
             </li>
             <li class="flex items-center font-beta pb-1">
               <div class="w-2 h-2 bg-beta rounded-full mr-3"></div>
-              Tire change
+              {{$t('car.tire')}}
             </li>
             <li class="flex items-center font-beta pb-1">
               <div class="w-2 h-2 bg-beta rounded-full mr-3"></div>
-              Clutch
+              {{$t('car.clutch')}}
             </li>
             <li class="flex items-center font-beta pb-1">
               <div class="w-2 h-2 bg-beta rounded-full mr-3"></div>
-              Brakes
+              {{$t('car.brakes')}}
             </li>
             <li class="flex items-center font-beta pb-6">
               <div class="w-2 h-2 bg-beta rounded-full mr-3"></div>
-              Suspension
+              {{$t('car.suspension')}}
             </li>
           </ul>
           <div class=" flex gap-2 text-beta w-full h-full justify-center items-end pb-6">
@@ -49,27 +49,27 @@
           <div class="rounded-md">
             <img class="p-4 w-full h-28 lg:h-32 object-cover" src="/chiptuning.jpg" alt="Photo of automotive chart">
           </div>
-          <h1 class="text-center font-alpha text-alpha pb-3">Chiptuning</h1>
+          <h1 class="text-center font-alpha text-alpha pb-3">{{$t('chiptuning.title')}}</h1>
           <ul class="list-inside mx-6 lg:mx-10 text-sm md:text-base">
             <li class="flex items-center font-beta pb-1">
               <div class="w-2 h-2 bg-beta rounded-full mr-3"></div>
-              Increase the power
+              {{$t('chiptuning.power')}}
             </li>
             <li class="flex items-center font-beta pb-1">
               <div class="w-2 h-2 bg-beta rounded-full mr-3"></div>
-              Power check on dynamometer
+              {{$t('chiptuning.powerCheck')}}
             </li>
             <li class="flex items-center font-beta pb-1">
               <div class="w-2 h-2 bg-beta rounded-full mr-3"></div>
-              Individual modifications
+              {{$t('chiptuning.modifications')}}
             </li>
             <li class="flex items-center font-beta pb-1">
               <div class="w-2 h-2 bg-beta rounded-full mr-3"></div>
-              Gearbox modifications
+              {{$t('chiptuning.gearboxmodifications')}}
             </li>
             <li class="flex items-center font-beta pb-1">
               <div class="w-2 h-2 bg-beta rounded-full mr-3"></div>
-              Coding
+              {{$t('chiptuning.coding')}}
             </li>
           </ul>
           <div class=" flex gap-2 text-beta w-full h-full justify-center items-end pb-6">
@@ -82,19 +82,19 @@
           <div class="rounded-md">
             <img class="p-4 w-full h-28 lg:h-32 object-cover" src="/welding.jpg" alt="Photo of a welder">
           </div>
-          <h1 class="text-center font-alpha text-alpha pb-3">Welding</h1>
+          <h1 class="text-center font-alpha text-alpha pb-3">{{$t('welding.title')}}</h1>
           <ul class="list-inside mx-6 lg:mx-10 text-sm md:text-base">
             <li class="flex items-center font-beta pb-1">
               <div class="w-2 h-2 bg-beta rounded-full mr-3"></div>
-              Stainless steel exhausts
+              {{$t('welding.exhaust')}}
             </li>
             <li class="flex items-center font-beta pb-1">
               <div class="w-2 h-2 bg-beta rounded-full mr-3"></div>
-              Air intakes
+              {{$t('welding.intakes')}}
             </li>
             <li class="flex items-center font-beta pb-1">
               <div class="w-2 h-2 bg-beta rounded-full mr-3"></div>
-              Installation of intercoolers
+              {{$t('welding.intercooler')}}
             </li>
           </ul>
           <div class="flex gap-2 text-beta w-full h-full justify-center items-end m-auto pb-6">

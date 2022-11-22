@@ -13,13 +13,12 @@
         <h1
           class="tracking-wide md:tracking-widest font-alpha text-2xl md:text-3xl lg:text-4xl text-alpha"
         >
-          Why Garage VanCuba?
+          {{$t('home.title')}}
         </h1>
         <p
           class="text-lg leading-8 md:text-xl md:leading-10 lg:text-2xl text-alpha max-w-md pt-6 lg:leading-[50px]"
         >
-          I offer the best service and guarantee the best quality. I'll take
-          care of your car like it's mine. My customers' cars comes first.
+        {{$t('home.description')}}
         </p>
       </div>
       <div class="flex justify-end">
