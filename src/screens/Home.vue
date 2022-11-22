@@ -1,10 +1,10 @@
 <template>
   <main class="flex flex-col w-screen min-h-screen">
     <header
-      class="flex flex-col md:flex-row items-center m-3 md:justify-between md:m-6 lg:mx-12"
+      class="flex flex-col md:flex-row items-center m-2 md:justify-between md:m-6 lg:mx-12"
     >
       <router-link to="/home">
-        <Logo class="w-32 md:w-36 lg:w-40" />
+        <Logo class="w-30 md:w-36 lg:w-40" />
       </router-link>
       <Nav />
     </header>
@@ -13,18 +13,18 @@
         <h1
           class="tracking-wide md:tracking-widest font-alpha text-2xl md:text-3xl lg:text-4xl text-alpha"
         >
-          {{$t('home.title')}}
+          {{ $t('home.title') }}
         </h1>
         <p
           class="text-lg leading-8 md:text-xl md:leading-10 lg:text-2xl text-alpha max-w-md pt-6 lg:leading-[50px]"
         >
-        {{$t('home.description')}}
+          {{ $t('home.description') }}
         </p>
       </div>
       <div class="flex justify-end">
         <img
-          class="max-w-sm md:max-w-md lg:max-w-xl xl:max-w-2xl"
-          src="/home-car.jpeg"
+          class="max-w-sm md:max-w-md lg:max-w-xl xl:max-w-2xl pointer-events-none"
+          src="/home-car.jpg"
           alt="Photo of a car"
         />
       </div>
@@ -36,8 +36,10 @@
       >
         <p class="">Garage VanCuba © 2022</p>
         <div class="flex items-center">
-                  <a class="hover:text-neutral-900 pr-1" href="https://www.klaudiawarmus.be"
-          >Website by KWS
+          <a
+            class="hover:text-neutral-900 pr-1"
+            href="https://www.klaudiawarmus.be"
+            >Website by KWS
           </a>
         </div>
 

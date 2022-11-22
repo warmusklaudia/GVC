@@ -1,8 +1,7 @@
 <template>
-  <div>
+  <div class="overflow-hidden">
     <RouterView />
   </div>
 </template>
 
-<style setup lang="ts">
-</style>
+<style setup lang="ts"></style>

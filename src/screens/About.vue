@@ -1,10 +1,10 @@
 <template>
   <main class="flex flex-col w-screen min-h-screen">
     <header
-      class="flex flex-col md:flex-row items-center m-3 md:justify-between md:m-6 lg:mx-12"
+      class="flex flex-col md:flex-row items-center m-2 md:justify-between md:m-6 lg:mx-12"
     >
       <router-link to="/home">
-        <Logo class="w-32 md:w-36 lg:w-40" />
+        <Logo class="w-30 md:w-36 lg:w-40" />
       </router-link>
       <Nav />
     </header>
@@ -13,7 +13,7 @@
         class="px-3 flex flex-col items-center md:flex-row md:justify-evenly m-6 md:m-12 lg:pl-10"
       >
         <img
-          class="max-w-xs lg:max-w-md rounded-md shadow-lg"
+          class="max-w-xs lg:max-w-md rounded-md shadow-lg pointer-events-none"
           src="/jakub.jpg"
           alt="Photo of Jakub"
         />
@@ -21,12 +21,12 @@
           <h1
             class="tracking-wide md:tracking-widest font-alpha text-md md:text-lg lg:text-xl text-alpha font-bold"
           >
-          {{$t('about.petrolhead.title')}}
+            {{ $t('about.petrolhead.title') }}
           </h1>
           <p
             class="font-beta leading-8 md:leading-8 lg:text-lg max-w-sm lg:max-w-md pt-6 lg:leading-10"
           >
-          {{$t('about.petrolhead.text')}}
+            {{ $t('about.petrolhead.text') }}
           </p>
         </div>
       </div>
@@ -34,7 +34,7 @@
         class="px-3 flex flex-col items-center md:flex-row-reverse md:justify-evenly m-6 md:m-12 lg:pl-10"
       >
         <img
-          class="max-w-xs lg:max-w-md rounded-md shadow-lg"
+          class="max-w-xs lg:max-w-md rounded-md shadow-lg pointer-events-none"
           src="/audis4.jpg"
           alt="Photo of Audi S4"
         />
@@ -42,12 +42,12 @@
           <h1
             class="tracking-wide md:tracking-widest font-alpha text-md md:text-lg lg:text-xl text-alpha font-bold"
           >
-          {{$t('about.s4.title')}}
+            {{ $t('about.s4.title') }}
           </h1>
           <p
             class="font-beta leading-8 md:leading-8 lg:text-lg max-w-sm lg:max-w-md pt-6 lg:leading-10"
           >
-          {{$t('about.petrolhead.text')}}
+            {{ $t('about.s4.text') }}
           </p>
         </div>
       </div>
